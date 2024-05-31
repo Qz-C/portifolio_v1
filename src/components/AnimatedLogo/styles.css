@@ -1,0 +1,121 @@
+.container {
+    background: var(--dark-purple);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto;
+}
+
+.logo-element-primary{
+    stroke-dasharray: 1700;
+    stroke-dashoffset: 1700;
+    stroke: #9befaa;
+    stroke-width: 2;
+    fill: transparent;
+    animation: animation-logo-element-primary 3s linear forwards;
+}
+
+@keyframes animation-logo-element-primary {
+    0% {
+        stroke-dashoffset: 1700;
+    }
+    80% {
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill: #9befaa;
+    }
+}
+
+.logo-element-secondary{
+    stroke-dasharray: 1500;
+    stroke-dashoffset: 1500;
+    stroke: #5930a0;
+    stroke-width: 2;
+    fill: transparent;
+    animation: animation-logo-element-secondary 3s linear forwards;
+}
+
+@keyframes animation-logo-element-secondary {
+    0% {
+        stroke-dashoffset: 1500;
+    }
+    80% {
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill: #5930a0;
+    }
+}
+
+.logo-element-primary-variant{
+    stroke-dasharray: 810;
+    stroke-dashoffset: 810;
+    stroke-width: 2;
+    fill: transparent;
+    animation: animation-logo-element-primary-variant 3s linear forwards;
+    stroke: #3b5d5f;
+}
+
+@keyframes animation-logo-element-primary-variant {
+    0% {
+        stroke-dashoffset: 810;
+    }
+    80% {
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill: #3b5d5f;
+    }
+}
+
+.logo-element-central-dot{
+    stroke-dasharray: 60;
+    stroke-dashoffset: 60;
+    stroke-width: 2;
+    fill: transparent;
+    animation: animation-logo-element-central-dot 3s linear forwards;
+    stroke: #fffff2;
+}
+
+@keyframes animation-logo-element-central-dot {
+    0% {
+        stroke-dashoffset: 60;
+    }
+    80% {
+        fill: transparent;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill: #fffff2;
+    }
+}
+
+.logo-element-gradient{
+    stroke-dasharray: 1180;
+    stroke-dashoffset: 1180;
+    stroke-width: 2;
+    animation: animation-logo-element-gradient 3s linear forwards;
+    stroke: #9befaa;
+    fill-opacity: 0;
+}
+
+@keyframes animation-logo-element-gradient {
+    0% {
+        stroke-dashoffset: 1180;
+    }
+    80% {
+        fill-opacity: 0;
+    }
+    100% {
+        stroke-dashoffset: 0;
+        fill-opacity: 1;
+        stroke-width: 0;
+    }
+}
+

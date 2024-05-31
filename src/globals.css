@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --gunmetal: #291F18;
+    --dark-purple: #0B0126;
+    --russian-violet: #36034A;
+    --rebecca-purple: #5930A0;
+    --dark-slate-gray: #3B5D5F;
+    --esmerald: #34BB78;
+    --light-green: #9BEFAA;
+    --powder-blue: #98C1D9;
+    --ivory: #FFFFF2;
+}
+
+html, body, #root{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
