@@ -19,4 +19,20 @@ html, body, #root{
     width: 100%;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto Light", sans-serif;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.cursor {
+    display: inline-block;
+    background-color: #f8f8f2; /* Adjust to match the foreground color */
+    width: 8px; /* Adjust width */
+    height: 1em; /* Adjust height */
+    vertical-align: middle;
+    animation: blink 1s step-end infinite;
 }

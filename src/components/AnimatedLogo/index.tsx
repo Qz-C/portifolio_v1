@@ -3,7 +3,7 @@ import './styles.css';
 const AnimatedLogo = () => {
     return (
         <div className="container">
-            <svg width="1024px" height="1024px"
+            <svg width="100%" height="100%" viewBox="0 0 1000 1000" preserveAspectRatio="xMidYMid meet"
                  style={{shapeRendering:"geometricPrecision", textRendering:"geometricPrecision", fillRule:"evenodd", clipRule:"evenodd"}}
                  id="svg130" xmlSpace="preserve" xmlnsXlink="http://www.w3.org/1999/xlink"
                  xmlns="http://www.w3.org/2000/svg">
